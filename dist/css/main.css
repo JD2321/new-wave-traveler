@@ -39,22 +39,11 @@
   .menu-nav {
     margin: 0;
     padding: 0;
+    background: #2a617b;
+    opacity: .8;
     list-style: none;
     transform: translate3d(0, -100%, 0);
     transition: all 0.8s ease-out; }
-    .menu-nav#bg-img {
-      background: url(../images/galaxy.jpg);
-      background-attachment: fixed;
-      background-size: cover; }
-      .menu-nav#bg-img:after {
-        content: '';
-        position: absolute;
-        top: 0;
-        right: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(42, 97, 123, 0.9);
-        z-index: -1; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu .nav-item {
@@ -99,6 +88,14 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
 
+.about-me-border {
+  position: relative;
+  margin-bottom: 50px;
+  top: 125px;
+  height: 400px;
+  width: 100%;
+  border: 4px solid white; }
+
 h1, h2, h3 {
   margin: 0;
   font-weight: 400; }
@@ -141,26 +138,6 @@ main {
         transition: all 0.8s ease-out; }
   main.home {
     overflow: hidden; }
-
-.about-info .lg-heading {
-  grid-area: heading; }
-
-.about-info .sm-heading {
-  grid-area: subheading; }
-
-.about-info .bio .bio-img {
-  grid-area: bioimg;
-  margin: auto;
-  height: 200px;
-  width: 200px;
-  border: #8FC1E3 3px solid;
-  border-radius: 50%;
-  margin-right: 30px;
-  float: left; }
-
-.about-info .bio .bio-text {
-  font-size: 1.5rem;
-  padding: 15px; }
 
 .projects {
   display: grid;

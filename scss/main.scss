@@ -15,6 +15,16 @@ body {
 
 }
 
+.about-me-border{
+    position: relative;
+    margin-bottom: 50px;
+    top: 125px;
+    height: 400px;
+    width: 100%;
+    border: 4px solid white;
+    
+}
+
 
 
 //headings
@@ -61,6 +71,7 @@ header {
     border: 4px solid currentColor;
     padding: 4rem;
     margin-top: 15vh;
+   
 
 }
 
@@ -89,72 +100,6 @@ main {
     &.home {
         overflow: hidden;
     }
-}
-
-//about page css
-
-.about-info {
-    // display:grid;
-    // grid-gap: 30px;
-    // grid-template-areas: 
-    // 'bioimg bio bio';
-
-    // // 'jobone jobtwo jobthree';;
-    // grid-template-columns: 1fr;
-
-
-    .lg-heading {
-        grid-area: heading;
-    }
-
-    .sm-heading {
-        grid-area:subheading;
-    }
-
-    .bio{
-
-        .bio-img {
-            grid-area: bioimg;
-            margin: auto;
-            height: 200px;
-            width:200px;
-            border: $secondary-color 3px solid;
-            border-radius: 50%;
-            margin-right:30px; 
-            float: left;
-        }
-
-        .bio-text {
-            font-size: 1.5rem;
-            padding: 15px;   
-        }
-
-    }
-
-    
-    
-    
-    
-//     .job-one {
-//         grid-area: jobone
-//     }
-    
-//     .job-two {
-//         grid-area: jobtwo
-//     }
-    
-//     .job-three {
-//         grid-area: jobthree
-//     }
-    
-//     .job {
-//         background:lighten($primary-color, 5);
-//         padding: 0.5rem;
-//         border-bottom: $secondary-color 5px solid;
-    
-//     }
-
-
 }
 
 //My Work page css
