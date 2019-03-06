@@ -15,15 +15,34 @@ body {
 
 }
 
-.about-me-border{
-    position: relative;
-    margin-bottom: 50px;
-    top: 125px;
-    height: 400px;
-    width: 100%;
-    border: 4px solid white;
-    
+.about-me{
+    margin-bottom:20vh;
+
+    .about-me-border{
+        position: relative;
+        margin-bottom: 50px;
+        top: 125px;
+        height: 400px;
+        width: 100%;
+        border: 4px solid white;
+        
+    }
+
+    .about-me-img{
+        float: left;
+
+    }
+
+    .about-me-text{
+        float: break;
+    }
+
+
+
 }
+
+
+
 
 
 

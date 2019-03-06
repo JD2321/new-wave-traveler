@@ -88,13 +88,19 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
 
-.about-me-border {
-  position: relative;
-  margin-bottom: 50px;
-  top: 125px;
-  height: 400px;
-  width: 100%;
-  border: 4px solid white; }
+.about-me {
+  margin-bottom: 20vh; }
+  .about-me .about-me-border {
+    position: relative;
+    margin-bottom: 50px;
+    top: 125px;
+    height: 400px;
+    width: 100%;
+    border: 4px solid white; }
+  .about-me .about-me-img {
+    float: left; }
+  .about-me .about-me-text {
+    float: break; }
 
 h1, h2, h3 {
   margin: 0;
