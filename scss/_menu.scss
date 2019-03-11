@@ -68,7 +68,7 @@
     &-nav {
         margin: 0;
         padding: 0;
-        background: darken($primary-color, 5);
+        background: darken($grey, 20%);
         opacity: .8;
         // @include background(darken($primary-color, 5));
         list-style: none;
@@ -92,7 +92,7 @@
         }
 
         &.current > a {
-            color: $secondary-color;
+            color: lighten($purple, 30%);
         }
     }
 
@@ -108,7 +108,7 @@
         @include easeOut;
 
         &:hover {
-            color: $secondary-color;
+            color: lighten($purple, 10%);
         }
     }
 
