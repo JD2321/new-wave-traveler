@@ -167,6 +167,38 @@ main {
       border-color: #8FC1E3;
       transition: all 0.8s ease-out; }
 
+/* Create three equal columns that floats next to each other */
+.column {
+  margin: 15px;
+  border: 1px solid white;
+  float: left;
+  width: 30%;
+  padding: 10px;
+  height: 400px;
+  /* Should be removed. Only for demonstration */
+  background-color: #F7F9FB;
+  color: black;
+  text-align: center; }
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.card-border {
+  border: 5px solid black;
+  margin: 2px;
+  padding: 20px;
+  height: 100%; }
+  .card-border h2 {
+    margin: 10px; }
+  .card-border a {
+    color: black;
+    margin: 50px; }
+    .card-border a:hover {
+      color: #31708E; }
+
 .btn, .btn-dark, .btn-light {
   display: block;
   padding: 0.5rem 1rem;
