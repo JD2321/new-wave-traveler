@@ -152,6 +152,49 @@ main {
     }
 }
 
+/* Create three equal columns that floats next to each other */
+.column {
+    margin: 15px;
+    border: 1px solid white;    
+    float: left;
+    width: 30%;
+    padding: 10px;
+    height:400px; /* Should be removed. Only for demonstration */
+
+    background-color: $white;
+    color: black;
+    text-align: center;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .card-border {
+        border: 5px solid black;
+        margin:2px;
+        padding:20px;
+        height:100%;
+
+        h2 {
+            margin: 10px;
+        }
+
+        a {
+            color: black;
+            margin: 50px;
+
+            &:hover {
+                color: $primary-color;
+            }
+
+        }
+        
+  }
+
 //button styles 
 
 .btn {
