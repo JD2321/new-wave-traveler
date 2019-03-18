@@ -199,6 +199,16 @@ main {
     .card-border a:hover {
       color: #31708E; }
 
+.article-border {
+  border: 5px solid white;
+  width: 100%;
+  height: 100vh;
+  margin-top: 35px;
+  text-align: center; }
+  .article-border h1, .article-border h2, .article-border h3 {
+    text-decoration: underline;
+    margin-top: 10px; }
+
 .btn, .btn-dark, .btn-light {
   display: block;
   padding: 0.5rem 1rem;

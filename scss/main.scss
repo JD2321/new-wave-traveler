@@ -195,6 +195,21 @@ main {
         
   }
 
+  //article css 
+
+  .article-border {
+      border: 5px solid white;
+      width: 100%;
+      height: 100vh;
+      margin-top: 35px;
+      text-align: center;
+
+      h1, h2, h3 {
+          text-decoration: underline;
+          margin-top: 10px;
+      }
+  }
+
 //button styles 
 
 .btn {
