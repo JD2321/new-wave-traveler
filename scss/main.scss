@@ -197,7 +197,20 @@ main {
         
   }
 
+  .card-pic {
+
+    img {
+        max-width: 275px;
+        height: auto;
+    }
+    
+  }
+
   //article css 
+
+  #article {
+      background: $purple;
+  }
 
   .article-border {
       border: 5px solid white;
@@ -224,6 +237,8 @@ main {
 
         p {
             font-family: 'Source Sans Pro', sans-serif;
+            margin-top: 15px;
+            margin-bottom: 15px;
         }
 
         .quote {
