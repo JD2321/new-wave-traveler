@@ -199,6 +199,13 @@ main {
     .card-border a:hover {
       color: #31708E; }
 
+.card-pic img {
+  max-width: 275px;
+  height: auto; }
+
+#article {
+  background: #494B58; }
+
 .article-border {
   border: 5px solid white;
   padding: 15px;
@@ -215,7 +222,9 @@ main {
     max-width: 70%;
     height: auto; }
   .article-border .article-section p {
-    font-family: 'Source Sans Pro', sans-serif; }
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 15px;
+    margin-bottom: 15px; }
   .article-border .article-section .quote {
     font-family: 'Petit Formal Script', cursive; }
   .article-border .article-section .quote-bar {
